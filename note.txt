@@ -1,0 +1,6 @@
+tsc --init      - to create tsconfig.json
+                - uncomment rootDir, outDir and add path
+
+tsc             - to run
+tsc --watch     - watch the src ts file, re run automaticaly when save the file
+node --watch dist/index.js - watch the file and rerun automaticaly
