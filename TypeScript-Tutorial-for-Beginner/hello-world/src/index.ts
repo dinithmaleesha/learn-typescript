@@ -1,1 +1,2 @@
-let numbers: number[] = [1, 2, 3]
+let user: [number, string] = [1, 'Dinith'];
+user.push(1);
