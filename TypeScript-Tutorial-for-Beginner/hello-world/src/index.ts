@@ -1,8 +1,12 @@
-function calculateTax(income: number): number {
-    return 0;
-}
+let employee: {
+    readonly id: number,
+    name: string,
+    retire: (date: Date) => void
+} = { 
+    id: 1, 
+    name: 'Dinith', 
+    retire: (date: Date) => {
+        console.log(date)
+    }
+    }
 
-function taxAmt(income: number, taxYear = 2022): number {
-    return 0;
-}
-taxAmt(10_000);
