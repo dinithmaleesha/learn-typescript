@@ -1,2 +1,8 @@
-type Quantity = 50 | 100;
-let quantity: Quantity = 100;
+function greet(name: string | null) {
+    if(name)
+        console.log(name.toLowerCase());
+    else
+        console.log('Hola');
+}
+
+greet(null)
